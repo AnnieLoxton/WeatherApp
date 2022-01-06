@@ -1,38 +1,98 @@
-.App {
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F6F6F6;
+}
+
+/* ---------------- FONT STYLES ---------------- */
+h1{
+  font-size: 61px;
+  font-weight: 700;
+  color: #403F71;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2{
+  font-size: 56px;
+  font-weight: 700;
+  color: #403F71;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h5{
+  font-size: 25px;
+  font-weight: 600;
+  color: #403F71;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pLarge{
+  font-size: 18px;
+  font-weight: 400;
+  color: #64648C;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.pSmall{
+  font-size: 16px;
+  font-weight: 400;
+  color: #64648C;
+}
+
+/* ---------------- APP COMPONENT ---------------- */
+.App{
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchBar{
+  display: block;
+  width: 420px;
+  padding: 16px;
+  margin: auto;
+  border: none;
+  border-radius: 8px;
+  margin-top: 40px;
+  appearance: none;
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.locationContainer{
+  margin-top: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weatherContainer{
+  display: block;
+  margin: auto;
+  background-color: white;
+  border-radius: 14px;
+  width: 349px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 0px 4px 33px rgba(64, 63, 113, 0.08);
+}
+
+.weatherContainer h2{
+  margin-bottom: 40px;
+}
+
+.weatherContainer hr{
+  width: 269px;
+  border: 1px solid#F6F6F6;
+}
+
+.weatherDetails{
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-top: 24px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherDetails p{
+  color: #403F71;
+  font-weight: 600;
 }
