@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="header"
+>
+  <h1
+    style={
+      Object {
+        "marginTop": "80px",
+      }
+    }
+  >
+    Weather Forecast
+  </h1>
+  <p
+    className="pLarge"
+    style={
+      Object {
+        "marginTop": "16px",
+      }
+    }
+  >
+    Search a city to see the current weather.
+  </p>
+</div>
+`;

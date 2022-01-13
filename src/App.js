@@ -2,6 +2,7 @@
 https://www.youtube.com/watch?v=GuA0_Z1llYU&ab_channel=TylerPotts*/
 import React, { useState } from 'react';
 import './App.css';
+import Heading from './Components/Heading'
 
 //Set the key and host of the API
 const api = {
@@ -64,12 +65,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className='header'>
-        <h1 style={{marginTop: "80px"}}>Weather Forecast</h1>
-        <p className='pLarge' style={{marginTop: "16px"}}>
-          Search a city to see the current weather.
-        </p>
-      </div>
+      <Heading />
 
       <div className='searchContainer'>
         <input
